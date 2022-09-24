@@ -64,28 +64,54 @@ Number data type is a data type that contains numbers. Number has 3 types in Pyt
 - The boolean data type can only be filled with one of 2 values, namely **TRUE** or **FALSE**
 - The boolean data type is mostly used to decide what to do when a condition occurs
 
+## Python Data Type Advance
+Python has 5 data type advance to store collection of data, there are **List**, **Tuple**, **Set**, **Dictionary** and **Slicing**.
 
+### List
+- List is a collection which is *ordered*, *changeable* and *allow duplicate* items
+- List create with square brackets [ ]
+- If items in the list is string, the items must to assign with *quotation marks*, either with single (' ') or double (" ") quotation marks. And if the items is number or boolean, no need to assign with quotation marks
+- Each item *separated by a comma* (,)
+```
+this_list = ["Halo", "This is Github", 8888, False]
+```
 
+### Tuple
+- Tuple is a collection which is *ordered* and *unchangeable* and *allows duplicate* items
+- Tuple create with round brackets ( )
+- If items in the tuple is string, the items must to assign with *quotation marks*, either with single (' ') or double (" ") quotation marks. And if the items is number or boolean, no need to assign with quotation marks
+- Each item *separated by a comma* (,)
+```
+this_tuple = ("Halo", "This is Github", 8888, False)
+```
 
+### Set
+- Set is a collection which is *unordered*, *unchangeable*, *unindexed* and *no duplicate* items
+- Set create with curly brackets { }
+- If items in the set is string, the items must to assign with *quotation marks*, either with single (' ') or double (" ") quotation marks. And if the items is number or boolean, no need to assign with quotation marks
+- Each item *separated by a comma* (,)
+```
+this_set = {"Halo", "This is Github", 8888, False}
+```
 
+### Dictionary
+- Dictionary is a collection which is *ordered*, *changeable* and *duplicate* items
+- If key or value in the dictionary is string, they must to assign with *quotation marks*, either with single (' ') or double (" ") quotation marks. And if the key or value is number or boolean, no need to assign with quotation marks.
+- Key and value *separated by colon* (,).
+- Each item *separated by a comma* (,).
+```
+this_dict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": "red"
+}
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Slicing String
+- Slicing is used to retrieve items in a string. 
+- Mutable (can be changed) if the entire data is changed, but immutable (cannot be changed) if only one of the string items
+```
+a = "Data Engineer"
+print(a[5:12])
+```
